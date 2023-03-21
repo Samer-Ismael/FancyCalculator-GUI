@@ -5,6 +5,7 @@
 package com.mycompany.calculator;
 
 import java.awt.Color;
+import javax.swing.KeyStroke;
 
 /**
  *
@@ -59,191 +60,234 @@ public class CalculatorGUI extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Samer's Calculator");
-        setBackground(new java.awt.Color(51, 51, 51));
+        setBackground(new java.awt.Color(0, 0, 0));
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setLocationByPlatform(true);
 
+        jButton1.setBackground(new java.awt.Color(153, 153, 153));
         jButton1.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(51, 51, 51));
+        jButton1.setForeground(new java.awt.Color(0, 0, 0));
         jButton1.setText("1");
+        jButton1.setFocusable(false);
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
 
+        jButton2.setBackground(new java.awt.Color(153, 153, 153));
         jButton2.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(51, 51, 51));
+        jButton2.setForeground(new java.awt.Color(0, 0, 0));
         jButton2.setText("2");
+        jButton2.setFocusable(false);
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
 
+        jButton3.setBackground(new java.awt.Color(153, 153, 153));
         jButton3.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton3.setForeground(new java.awt.Color(51, 51, 51));
+        jButton3.setForeground(new java.awt.Color(0, 0, 0));
         jButton3.setText("3");
+        jButton3.setFocusable(false);
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
             }
         });
 
+        jButton4.setBackground(new java.awt.Color(153, 153, 153));
         jButton4.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton4.setForeground(new java.awt.Color(51, 51, 51));
+        jButton4.setForeground(new java.awt.Color(0, 0, 0));
         jButton4.setText("4");
+        jButton4.setFocusable(false);
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
             }
         });
 
+        jButton5.setBackground(new java.awt.Color(153, 153, 153));
         jButton5.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton5.setForeground(new java.awt.Color(51, 51, 51));
+        jButton5.setForeground(new java.awt.Color(0, 0, 0));
         jButton5.setText("5");
+        jButton5.setFocusable(false);
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
             }
         });
 
+        jButton6.setBackground(new java.awt.Color(153, 153, 153));
         jButton6.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton6.setForeground(new java.awt.Color(51, 51, 51));
+        jButton6.setForeground(new java.awt.Color(0, 0, 0));
         jButton6.setText("6");
+        jButton6.setFocusable(false);
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton6ActionPerformed(evt);
             }
         });
 
+        jButton7.setBackground(new java.awt.Color(153, 153, 153));
         jButton7.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton7.setForeground(new java.awt.Color(51, 51, 51));
+        jButton7.setForeground(new java.awt.Color(0, 0, 0));
         jButton7.setText("7");
+        jButton7.setFocusable(false);
         jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton7ActionPerformed(evt);
             }
         });
 
+        jButton8.setBackground(new java.awt.Color(153, 153, 153));
         jButton8.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton8.setForeground(new java.awt.Color(51, 51, 51));
+        jButton8.setForeground(new java.awt.Color(0, 0, 0));
         jButton8.setText("8");
+        jButton8.setFocusable(false);
         jButton8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton8ActionPerformed(evt);
             }
         });
 
+        jButton9.setBackground(new java.awt.Color(153, 153, 153));
         jButton9.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton9.setForeground(new java.awt.Color(51, 51, 51));
+        jButton9.setForeground(new java.awt.Color(0, 0, 0));
         jButton9.setText("9");
+        jButton9.setFocusable(false);
         jButton9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton9ActionPerformed(evt);
             }
         });
 
+        jButton10.setBackground(new java.awt.Color(153, 153, 153));
         jButton10.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton10.setForeground(new java.awt.Color(51, 51, 51));
+        jButton10.setForeground(new java.awt.Color(0, 0, 0));
         jButton10.setText("0");
+        jButton10.setFocusable(false);
         jButton10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton10ActionPerformed(evt);
             }
         });
 
+        jButton11.setBackground(new java.awt.Color(153, 153, 153));
         jButton11.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton11.setForeground(new java.awt.Color(51, 51, 51));
+        jButton11.setForeground(new java.awt.Color(0, 0, 0));
         jButton11.setText("Clear");
+        jButton11.setFocusable(false);
         jButton11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton11ActionPerformed(evt);
             }
         });
 
+        jButton12.setBackground(new java.awt.Color(153, 153, 153));
         jButton12.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton12.setForeground(new java.awt.Color(51, 51, 51));
+        jButton12.setForeground(new java.awt.Color(0, 0, 0));
         jButton12.setText("=");
+        jButton12.setFocusable(false);
         jButton12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton12ActionPerformed(evt);
             }
         });
 
+        jButton14.setBackground(new java.awt.Color(153, 153, 153));
         jButton14.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton14.setForeground(new java.awt.Color(51, 51, 51));
+        jButton14.setForeground(new java.awt.Color(0, 0, 0));
         jButton14.setText(".");
+        jButton14.setFocusable(false);
         jButton14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton14ActionPerformed(evt);
             }
         });
 
+        jButton15.setBackground(new java.awt.Color(153, 153, 153));
         jButton15.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton15.setForeground(new java.awt.Color(51, 51, 51));
+        jButton15.setForeground(new java.awt.Color(0, 0, 0));
         jButton15.setText("+/-");
+        jButton15.setFocusable(false);
         jButton15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton15ActionPerformed(evt);
             }
         });
 
+        jButton19.setBackground(new java.awt.Color(153, 153, 153));
         jButton19.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton19.setForeground(new java.awt.Color(51, 51, 51));
+        jButton19.setForeground(new java.awt.Color(0, 0, 0));
         jButton19.setText("+");
+        jButton19.setFocusable(false);
         jButton19.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton19ActionPerformed(evt);
             }
         });
 
+        jButton20.setBackground(new java.awt.Color(153, 153, 153));
         jButton20.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton20.setForeground(new java.awt.Color(51, 51, 51));
+        jButton20.setForeground(new java.awt.Color(0, 0, 0));
         jButton20.setText("-");
+        jButton20.setFocusable(false);
         jButton20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton20ActionPerformed(evt);
             }
         });
 
+        jButton21.setBackground(new java.awt.Color(153, 153, 153));
         jButton21.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton21.setForeground(new java.awt.Color(51, 51, 51));
+        jButton21.setForeground(new java.awt.Color(0, 0, 0));
         jButton21.setText("*");
+        jButton21.setFocusable(false);
         jButton21.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton21ActionPerformed(evt);
             }
         });
 
+        jButton22.setBackground(new java.awt.Color(153, 153, 153));
         jButton22.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton22.setForeground(new java.awt.Color(51, 51, 51));
+        jButton22.setForeground(new java.awt.Color(0, 0, 0));
         jButton22.setText("/");
+        jButton22.setFocusable(false);
         jButton22.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton22ActionPerformed(evt);
             }
         });
 
+        jButton23.setBackground(new java.awt.Color(153, 153, 153));
         jButton23.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        jButton23.setForeground(new java.awt.Color(51, 51, 51));
+        jButton23.setForeground(new java.awt.Color(0, 0, 0));
         jButton23.setText("off");
+        jButton23.setFocusable(false);
         jButton23.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton23ActionPerformed(evt);
             }
         });
 
+        textAll.setBackground(new java.awt.Color(153, 153, 153));
         textAll.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
-        textAll.setForeground(new java.awt.Color(51, 51, 51));
+        textAll.setForeground(new java.awt.Color(0, 0, 0));
         textAll.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
+        textAll.setFocusable(false);
         textAll.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 textAllActionPerformed(evt);
             }
         });
 
+        old.setBackground(new java.awt.Color(153, 153, 153));
+        old.setForeground(new java.awt.Color(0, 0, 0));
         old.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
+        old.setFocusable(false);
         old.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 oldActionPerformed(evt);
@@ -435,7 +479,8 @@ public class CalculatorGUI extends javax.swing.JFrame {
     private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
         
         
-        second = Double.parseDouble(textAll.getText());
+        
+            second = Double.parseDouble(textAll.getText());
         switch (operation){
             case '+':result = first + second; break;
             case '-':result = first - second; break;
@@ -453,7 +498,7 @@ public class CalculatorGUI extends javax.swing.JFrame {
     private void setText (String number){
         String oldText = textAll.getText() + number;
         textAll.setText(oldText);
-    } 
+    }
     
     private void setOperation (char ope){
         first = Double.parseDouble(textAll.getText());
