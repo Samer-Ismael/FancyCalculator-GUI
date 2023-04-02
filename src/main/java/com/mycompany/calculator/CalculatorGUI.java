@@ -477,9 +477,7 @@ public class CalculatorGUI extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton15ActionPerformed
 
     private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
-        
-        
-        
+              
             second = Double.parseDouble(textAll.getText());
         switch (operation){
             case '+':result = first + second; break;
